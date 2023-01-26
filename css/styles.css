@@ -1,0 +1,243 @@
+body {
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.02em;
+ 
+}
+
+:root {
+  --accent-color: #4d5ae5;
+  --basic-color: #2e2f42;
+  --color-text: #434455;
+  --color-text-button: #ffffff;
+  --color-background: #f4f4fd;
+  --color-footer-text: #e7e9fc;
+  --color-hover: #404bbf;
+}
+ /* -------------------utilits---------------------------- */
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+.btn{
+    cursor: pointer;
+}
+
+.visually-hidden{
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+
+/* ---------------HEADER--------------------- */
+
+.logo {
+  font-family: "Raleway";
+
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--basic-color);
+}
+.logo .logo-color {
+  color: var(--accent-color);
+}
+
+
+.nav-link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--basic-color);
+}
+
+.nav-link:hover, .nav-link:focus{
+color: var(--accent-color);
+}
+
+
+.list-contact {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--color-text);
+}
+
+.list-contact:hover, :focus{
+    color: var(--color-hover);
+}
+
+/* ---------------HERO--------------------- */
+
+.hero {
+  background-color: var(--basic-color);
+}
+.hero-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.1;
+
+  text-align: center;
+  color: var(--color-text-button);
+}
+.hero-btn {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+
+  color: var(--color-text-button);
+
+  background-color: var(--accent-color);
+}
+
+.hero-btn:hover, :focus{
+    background-color: var(--color-hover);
+}
+
+
+/* ---------------BENEFITS--------------------- */
+
+.benefits-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--basic-color);
+}
+.benefits-text {
+  font-size: 16px;
+  line-height: 1.5;
+
+  color: var(--color-text);
+}
+
+/* ---------------What are we doing--------------------- */
+
+.doing-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--basic-color);
+}
+
+/* ---------------Our Team--------------------- */
+.team {
+  background-color: var(--color-background);
+}
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--basic-color);
+}
+.team-after-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--basic-color);
+}
+.team-text {
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--color-text);
+}
+
+/* ---------------FOOTER--------------------- */
+
+.footer {
+  background-color: var(--basic-color);
+}
+
+.footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--color-footer-text);
+}
+
+.footer-logo.logo {
+  color: var(--color-background);
+}
+
+/* ---------------PORTFOLIO--------------------- */
+
+/* ---------------buttons--------------------- */
+
+.filt-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+
+  color: var(--accent-color);
+
+  /* border */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 24px;
+  width: 116px;
+  height: 48px;
+  background: #f4f4fd;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+}
+
+
+.filt-btn:hover,
+:focus {
+  color: #ffffff;
+  background: var(--color-hover);
+}
+
+/* ---------------WORKS--------------------- */
+
+.list-item{
+    background-color: var(--color-text-button);
+}
+
+
+.work-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--basic-color);
+}
+.work-text {
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--color-text);
+}
